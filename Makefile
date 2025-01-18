@@ -1,29 +1,3 @@
-# CC = gcc
-# CFLAGS = -Wall
-# TARGET = shell
-
-# all: $(TARGET)
-
-# $(TARGET): main.o shell.o builtins.o utils.o
-# 	$(CC) -o $(TARGET) main.o shell.o builtins.o utils.o
-
-# main.o: src/main.c 
-# 	$(CC) $(CFLAGS) -c src/main.c
-
-# shell.o: src/shell.c 
-# 	$(CC) $(CFLAGS) -c src/shell.c
-
-# builtins.o: src/builtins.c 
-# 	$(CC) $(CFLAGS) -c src/builtins.c
-
-# utils.o: src/utils.c 
-# 	$(CC) $(CFLAGS) -c src/utils.c
-
-# clean: 
-# 	rm -f *.o $(TARGET)
-
-
-
 CC = gcc
 CFLAGS = -Wall
 TARGET = shell
